@@ -1,0 +1,16 @@
+# Зависимости проекта. Установка: pip install -r requirements.txt
+# Источник версий — pyproject.toml, при добавлении пакета правьте оба файла.
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0
+
+# Инструменты разработки: тесты, линтер, pre-commit
+pytest>=8
+ruff>=0.5
+pre-commit>=3
+
+# Установка самого проекта в режиме разработки (чтобы работали импорты из src/)
+-e .
